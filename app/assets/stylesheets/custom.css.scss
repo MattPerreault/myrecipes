@@ -32,14 +32,22 @@ $navBarColor: #bf812b;
     text-decoration: none;
 }
 
-.jumbotron h1, h2 {
-    color: #FFFFFF;
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
     margin-bottom: 30px;
     letter-spacing: -1px;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black; 
 }
-
+  
+.jumbotron h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+  
 .btn-xlarge {
     background-color: #C56300;
 }
