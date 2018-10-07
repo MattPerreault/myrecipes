@@ -2,5 +2,6 @@ Rails.application.routes.draw do
   root "pages#home"
   get 'pages/home', to: 'pages#home'
   
-  get '/recipes', to: 'recipes#index'
+  # REST routes for :recipes
+  resources :recipes
 end

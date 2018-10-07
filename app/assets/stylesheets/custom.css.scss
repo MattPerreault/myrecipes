@@ -50,6 +50,7 @@ $navBarColor: #bf812b;
   
 .btn-xlarge {
     background-color: #C56300;
+    border:0;
 }
 
 .btn-xlarge:hover{
@@ -59,3 +60,19 @@ $navBarColor: #bf812b;
 .first-circle {
     background-image: asset_url("mexicanfood.jpg");
 }
+
+.description {
+    margin-top: 0;
+}
+
+.card a{
+  color: #bf812b;
+}
+
+.chef_info {
+    margin-top: 10px;
+}
+
+.colormatch a{
+    color: #bf812b;
+  }
