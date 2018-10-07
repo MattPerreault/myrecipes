@@ -1,24 +1,11 @@
 # README
+RESTFUL routes 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Prefix       VERB   URI PATTERN        Controller#Action
+pets         GET    /pets              pets#index
+new_pet      GET    /pets/new          pets#new     #displays a form
+             POST   /pets/             pets#create  #submit the information
+edit_pet     GET    /pets/:id/edit     pets#edit    #display edit form
+             PATCH  /pets/:id          pets#update  #submit the edited form information
+pet          GET    /pets/:id          pets#show    #dispay a particular pet
+             DELETE /pets/:id          pets#destroy #deletes a particular pet
